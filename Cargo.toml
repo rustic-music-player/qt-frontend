@@ -1,0 +1,12 @@
+[package]
+name = "rustic-qt-frontend"
+version = "0.1.0"
+authors = ["Max Jöhnk <maxjoehnk@gmail.com>"]
+
+[dependencies]
+
+[dependencies.qmetaobject]
+path = "../qmetaobject-rs/qmetaobject" # TODO: Install from git
+
+[dependencies.rustic-core]
+git = "https://github.com/rustic-music-player/core"
